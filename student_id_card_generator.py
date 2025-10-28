@@ -1,4 +1,4 @@
-# eduid_maker_final_preview_complete_v9.py
+# code of python mini project: student id card generator with qr
 import os, sys, sqlite3, tempfile, hashlib, re, requests, base64
 from PySide6 import QtCore, QtGui, QtWidgets
 from PIL import Image, ImageDraw, ImageFont
@@ -486,3 +486,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     w = Login(); w.show()
     sys.exit(app.exec())
+
